@@ -1,8 +1,8 @@
 var mysql = require('mysql');
 var con = mysql.createConnection({
-host: "localhost",
+host: "database-nodejs-project.cutcqrbubjpf.ap-southeast-2.rds.amazonaws.com",
 user: "root",
-password: "123",
+password: "123qweasd",
 database: "nodejs_api"
 });
 con.connect(function (err){
